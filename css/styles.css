@@ -1,0 +1,210 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --accent-white-color: #ffffff;
+  --bg-color: #ffffff;
+  --bg-color-secondary: #f5f4fa;
+  --bg-color-accent: #2196f3;
+  --bg-color-futer: #2f303a;
+}
+body {
+  font-family: Roboto, sans-serif;
+}
+.list {
+  list-style: none;
+}
+
+/*Web studio*/
+.site-nav {
+  background: var(--accent-white-color);
+}
+/* Logo */
+.site-nav .logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+.site-nav .logo-accent {
+  color: var(--accent-color);
+}
+/*Peges*/
+.site-page .page-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+.site-page .page-link:hover,
+.site-page .page-link:focus {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+/*Contact*/
+.site-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-contact .contact {
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+.site-contact .contact:hover,
+.site-contact .contact:focus {
+  color: var(--accent-color);
+}
+/*Hero*/
+/* .hero {
+} */
+.hero-title {
+  color: var(--accent-white-color);
+  background: #d0d3d4;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+}
+.button-primary {
+  color: var(--accent-white-color);
+  background: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  text-decoration: none;
+}
+/* Features */
+.section-features .features {
+  color: var(--accent-white-color);
+  background: var(--accent-white-color);
+}
+.section-features .title-text {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+.section-features .text {
+  color: var(--title-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+/* Services */
+.section-services {
+  background: var(--accent-white-color);
+}
+.section-services .services {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.section-services .title-text {
+  color: var(--accent-white-color);
+  background: #d0d3d4;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+/* Our Team */
+.team {
+  background: #f5f4fa;
+}
+.team .team-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team .team-text {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.team .text {
+  color: var(--title-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+/* .team .team-contact {
+} */
+/* Clients */
+.section-company {
+  background: var(--accent-white-color);
+}
+.section-company .company {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* Futer */
+/* Logo */
+.futer .logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.18;
+  color: var(--accent-white-color);
+  text-decoration: none;
+}
+.futer {
+  background: #2f303a;
+}
+.futer .logo-accent {
+  color: var(--accent-color);
+}
+/* Address, tel., mail */
+.futer .address {
+  color: var(--accent-white-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.futer .contact {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.subscription .title,
+.futer-link .link-title {
+  color: var(--accent-white-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.futer .copyright {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.4);
+}
